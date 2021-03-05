@@ -1,4 +1,4 @@
-# notifier
+# Discord Server Channel Notifier for Laravel 6.0+
 
 [![Latest Stable Version](https://poser.pugx.org/mehrancodes/laravel-discord-notifier/v)](//packagist.org/packages/mehrancodes/laravel-discord-notifier)
 [![Total Downloads](https://poser.pugx.org/mehrancodes/laravel-discord-notifier/downloads)](//packagist.org/packages/mehrancodes/laravel-discord-notifier)
