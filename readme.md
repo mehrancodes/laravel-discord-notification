@@ -1,8 +1,8 @@
 # notifier
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![StyleCI](https://styleci.io/repos/65772492/shield)](link-styleci)
-[![Total Downloads][ico-downloads]][link-downloads]
+[![Latest Version on Packagist][https://img.shields.io/packagist/v/mehrancodes/laravel-discord-notifier.svg?style=flat-square]][https://packagist.org/packages/mehrancodes/laravel-discord-notifier]
+[![StyleCI](https://github.styleci.io/repos/344832392/shield)](https://github.styleci.io/repos/344832392)
+[![Total Downloads][https://img.shields.io/packagist/dt/mehrancodes/laravel-discord-notifier.svg?style=flat-square]][https://packagist.org/packages/mehrancodes/laravel-discord-notifier]
 
 Send Discord public messages through webhook directly to the Discord server channels. This works by sending a post request with some JSON data to a unique URL Discord provides when you create your Webhook. Take a look at [contributing.md](contributing.md) to see a to do list.
 
