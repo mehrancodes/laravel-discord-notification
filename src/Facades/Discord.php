@@ -1,16 +1,16 @@
 <?php
 
-namespace Jackwestin\Notifier\Facades;
+namespace MehranCodes\Notifier\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @method channel($channel = null)
- * @method message(string $message)
+ * @method body(string $content)
  * @method embeds(array $embeds)
  * @method send()
  *
- * @see Jackwestin\Discord\Discord
+ * @see MehranCodes\Discord\Discord
  */
 class Discord extends Facade
 {

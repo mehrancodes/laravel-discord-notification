@@ -1,6 +1,6 @@
 <?php
 
-namespace Jackwestin\Notifier;
+namespace MehranCodes\Notifier;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Contracts\Foundation\Application;
@@ -44,7 +44,7 @@ class Discord
         return $this;
     }
 
-    public function content(string $content)
+    public function body(string $content)
     {
         $this->content = $content;
 

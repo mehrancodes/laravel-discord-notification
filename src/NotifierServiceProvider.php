@@ -1,6 +1,6 @@
 <?php
 
-namespace Jackwestin\Notifier;
+namespace MehranCodes\Notifier;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -31,7 +31,6 @@ class NotifierServiceProvider extends ServiceProvider
         $this->app->bind('laravel-discord-notifier', function ($app) {
             return new Discord($app);
         });
-
     }
 
     /**

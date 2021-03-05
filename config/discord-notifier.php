@@ -28,6 +28,7 @@ return [
     'channels' => [
         'capitan_hook' => [
             'webhook' => null,
-        ]
+        ],
+        // You can add as many Discord channels as you like to this array...
     ]
 ];

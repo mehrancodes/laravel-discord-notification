@@ -1,5 +1,5 @@
 {
-    "name": "jackwestin/laravel-discord-notifier",
+    "name": "mehrancodes/laravel-discord-notifier",
     "description": "Send Discord messages through webhook with Discord",
     "license": "MIT",
     "version": "1.0.0",
@@ -20,18 +20,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Jackwestin\\Notifier\\": "src/"
+            "MehranCodes\\Notifier\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jackwestin\\Notifier\\Tests\\": "tests"
+            "MehranCodes\\Notifier\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jackwestin\\Notifier\\NotifierServiceProvider"
+                "MehranCodes\\Notifier\\NotifierServiceProvider"
             ],
             "aliases": {
                 "Discord": "Discord"
