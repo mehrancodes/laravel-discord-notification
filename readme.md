@@ -51,7 +51,7 @@ Discord::body("The Mehran's new online meeting has ended up successfully")
     ->embeds([
         'title' => 'View Meeting Details On Nova Panel',
         'url' => url('nova/resources/meetings/1'),
-        ])
+    ])
     ->send();
 ```
 You can use the [embeds](https://discord.com/developers/docs/resources/channel#embed-object) method
