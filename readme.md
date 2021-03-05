@@ -71,7 +71,7 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [Mehran Rasuli][https://github.com/mehrancodes]
+- [Mehran Rasuli](https://github.com/mehrancodes)
 
 ## License
 

@@ -26,7 +26,7 @@ class NotifierServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/discord-notifier.php', 'discord-notifier');
+        $this->mergeConfigFrom(__DIR__.'/../config/discord-notifier.php', 'discord-notifier');
 
         $this->app->bind('laravel-discord-notifier', function ($app) {
             return new Discord($app);
@@ -52,7 +52,7 @@ class NotifierServiceProvider extends ServiceProvider
     {
         // Publishing the configuration file.
         $this->publishes([
-            __DIR__ . '/../config/discord-notifier.php' => config_path('discord-notifier.php'),
+            __DIR__.'/../config/discord-notifier.php' => config_path('discord-notifier.php'),
         ], 'discord-notifier-config');
     }
 }
